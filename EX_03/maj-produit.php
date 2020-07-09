@@ -23,9 +23,9 @@ try
             echo "Mis à jour dans la table";
     }
 catch(PDOException $e) 
-     {
+    {
          echo "<b>Vous n'êtes pas connecté</b>".$e->getMessage();
-     }
+    }
 
     }
 

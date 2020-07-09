@@ -22,9 +22,9 @@ try
             echo "Entrée supprimée dans la table";
     }
 catch(PDOException $e) 
-     {
+    {
          echo "<b>Vous n'êtes pas connecté</b>".$e->getMessage();
-     }
+    }
 
     }
 
